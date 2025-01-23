@@ -1,0 +1,39 @@
+.gradient-background {
+    background: linear-gradient(90deg, rgba(182,43,9,1) 0%, rgba(108,223,110,1) 40%, rgba(18,73,209,1) 100%);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin-top: 1rem;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+#nav_equilibri{
+    padding: auto;
+    margin: 0;
+}
+
+.footer_om{
+    background: linear-gradient(90deg, rgba(182,43,9,1) 0%, rgba(108,223,110,1) 40%, rgba(18,73,209,1) 100%);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite; 
+    padding: 10px;
+    margin: 0;
+}
+
+.servicos{
+    background: linear-gradient(90deg, rgba(182,43,9,1) 0%, rgba(108,223,110,1) 40%, rgba(18,73,209,1) 100%);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite; 
+    padding: 10px;
+    margin: 0;
+}
